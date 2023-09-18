@@ -14,6 +14,7 @@
   margin: 0;
   padding: 0;
 }
+
 img,
 video {
   max-inline-size: 100%;
@@ -28,21 +29,26 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
+  width: 428px;
+  height: 200px;
 }
 
 a {
   color: inherit;
-}
+} 
+
 header{
-  background-color: #D7A1FD;
+  background-color: #D7A1FD; 
 }
+
 h1{
   font-family: 'Nunito Sans', sans-serif;
   text-transform: uppercase;
   padding: 20px 20px 10px 20px;
   font-size: 50px;
 }
-h2{
+
+header p{
   color: white;
   font-family: 'Noto Serif', serif;
   text-transform: uppercase;
@@ -50,6 +56,7 @@ h2{
   padding: 0 20px 20px 20px;
   text-align: center;
 }
+
 header p {
   font-family: 'Noto Serif', serif;
 
@@ -62,17 +69,110 @@ header p {
   padding:20px 30px;
   font-family: 'Noto Serif', serif;
   text-transform: uppercase;
+  
  }
-h3{
+h2{
   font-size:50px ;
   font-family: Noto Serif;
   text-align: center;
   text-transform: uppercase;
   padding: 70px 20px 30px 20px; 
 }
- .Card{
-  border: solid 2px ;
+
+img{
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+}
+
+.Button{
+  padding: 20px 30px;
+  background-color: #000;
+  color: #D7A1FD;
+  margin: 50px;
+  font-family: Nunito Sans;
+  text-transform: uppercase;
+  align-items: center;
+  text-align: center;
+  font-size: 16px;
+}
+
+.Verte{
+  background-color:#98FB00 ;
+  font-family: Nunito Sans;
+  width: 428px;
+  height: 200px;
+}
+
+.grand-text{
+  font-size: 27px;
+  text-transform: uppercase;
+  text-align: center;
+  font-style: italic;
+  margin: 20px 30px;
+}
+
+ .short-text{
+  font-family: Noto Serif;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 15px;
  }
 
+ .Beige{
+  background-color: #F4EDE8;
+ }
+
+ .violet{
+  font-family: 'Nunito Sans', sans-serif;
+  text-transform: uppercase;
+  padding: 20px 20px 10px 10px;
+  font-size: 40px;
+  background-color: #D7A1FD;
+}
+ 
+
+ footer{
+  background-color: #000;
+  color: white;
+ }
+
+footer h1{
+  color: #313131;
+  font-family: 'Nunito Sans', sans-serif;
+  text-transform: uppercase;
+  padding: 20px 20px 20px 50px;
+  font-size: 50px;
+}
+
+h4{
+  font-family: Nunito Sans;
+  font-weight: 800;
+  
+}
+
+footer p {
+  font-family: Noto Serif;
+}
+.Contact{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+ }
+
+ .Comms{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+ }
+
+ .element{
+  display: flex;
+  background-color: #98FB00;
+  padding: 20px ;
+  font-family: Nunito Sans;
+  text-transform: uppercase;
+  margin: 20px 0 20px 0 ;
+  font-size: 20px;
+
+ }
